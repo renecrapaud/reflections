@@ -1,0 +1,12 @@
+Comandos git
+
+git log
+git diff
+git clone
+git checkout
+
+git add
+git status
+git reset
+git rm
+git commit -m

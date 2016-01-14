@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+I could need to have a copy on the internet of my project if I want to work with partners
+or even if I need to work in different places.

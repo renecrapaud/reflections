@@ -1,0 +1,32 @@
+Git commands
+
+git log
+git diff
+git clone
+git checkout
+
+git add
+git status
+git reset
+git rm
+git commit -m
+
+Check changes not commited
+git diff (no arguments)
+git diff --staged
+git reset --hard
+
+git checkout master (atach head to the last commit)
+
+git branch (without arguments, shows the current branches)
+git branch (with an argument, creates a new branch)
+git branch -d branch_name (deletes the branch)
+git checkout (with an argument, changes the current active branch)
+git merge (merge two branches together)
+git merge --abort (undo the changes of last merge)
+git show commit_id (Compares a commit to its parents)
+
+git remote
+git remote -v
+git remote add
+git push

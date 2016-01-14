@@ -23,7 +23,15 @@ Docs does?
 
 Pros:
 
--------------------------------------------------------------------------------
+With Git we can choose what versions of the files we will have and there are no
+date limit to save. We can go back to the older versions of our code. We can 
+write a description of the changes made in that commit.
+
+Cons:
+
+If we forget do the commit, maybe we lost some changes made to the code in case
+of mistake. We can lost control on the history, if we do not add a description
+on every commit.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file 

@@ -1,4 +1,35 @@
 What happens when you initialize a repository? Why do you need to do it?
+Git prepares the directory to work with different versions of the files, 
+creating the files needed to have the control of the versions. It has a
+file index, and a file information with the log and the commits.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+It has a intermediate changes made in the code files, it has the last saved 
+version of a specific file, but not send yet to the repository. While the 
+directory files has the most recent changes, and the respository has the 
+final snapshots.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+We can save in the staging area separated files and we do not send those to the
+repository until we are sure that the goal was reached. Then, we always can 
+commit the files only with the logical change was made.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+The branches are helpful when we are making experimental changes or different
+versions of the same program. In these cases we can save different project 
+versions in the same repository.
+We can identify each branch with a name and have a separated history of each 
+one.
+
+How do they diagrams help you visualize the branch structure?
+Diagram helps us to visualize the  whole history of each branch and have the
+control of how many branches we have in each repository.
+
+What is the result of merging two branches together? Why do we represent in the
+diagram the way we do?
+The result is that in one branch we will have the combination of all the changes
+made to both branches in one of these branches. We will have the complete 
+project.
